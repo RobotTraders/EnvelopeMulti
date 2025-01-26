@@ -6,7 +6,6 @@ import json
 sys.path.append(str(Path(__file__).parents[2]))
 from envelope_trader import EnvelopeTrader
 from utilities.bitget_futures_async import BitgetFuturesAsync
-from utilities.binance_async import BinanceAsync
 from utilities.timeframe_utils import filter_active_timeframes
 
 
