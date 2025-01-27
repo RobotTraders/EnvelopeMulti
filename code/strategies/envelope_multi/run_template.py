@@ -37,7 +37,7 @@ PARAMS = {
 }
 
 KEY_NAME = '' # << fill this according to the api key you want to use in secret.json
-KEY_PATH = Path(__file__).parents[4] / 'LiveTradingBots/secret.json'
+KEY_PATH = Path(__file__).parents[4] / 'EnvelopeMulti/secret.json'
 PRODUCT_TYPE = 'USDT-FUTURES' # 'USDC-FUTURES'
 MARGIN_MODE = 'isolated' # 'crossed'
 
