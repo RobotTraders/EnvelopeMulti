@@ -20,9 +20,18 @@ PARAMS = {
             'envelopes_shorts': [0.12, 0.16, 0.20],
             'stop_loss_pct': 0.45,
         },
+        'YYY/USDT:USDT': {
+            'balance_fraction': 0.5,
+            'leverage': 1,
+            'average_type': 'DCM',
+            'average_period': 5,
+            'envelopes_longs': [0.07, 0.11, 0.14, 0.17],
+            'envelopes_shorts': [0.12, 0.16, 0.20],
+            'stop_loss_pct': 0.45,
+        },
     },
     '15m': { 
-        'YYY/USDT:USDT': {
+        'ZZZ/USDT:USDT': {
             'balance_fraction': 0.5,
             'leverage': 1,
             'average_type': 'DCM',
